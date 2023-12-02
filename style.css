@@ -1,0 +1,140 @@
+*{
+    margin:0px;
+}
+
+.bg-container{
+    background-image: url("images/library.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.todo-con h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+    margin-top: 50px;
+    text-underline-offset: 10px;
+}
+
+.todo-con h2{
+    text-align: left;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.input{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    /* border: none; */
+    padding-left: 10px;
+    padding: 25px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    color: #fff2e6;
+    background-color: rgb(23, 43, 35);
+}
+
+
+.add-btn{
+    background-color: black;
+    color: #fff2e6;
+    border:1px solid #fff2e6;
+    height: 50px;
+    margin-left: 20px;
+    min-width: 70px;
+    outline: none;
+}
+
+.add-btn:hover{
+    background-color: #fff2e6;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    border:1px solid black;
+}
+
+.input-con{
+    display: flex;
+    margin-bottom: 20px; 
+}
+
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    list-style-type: none;
+    width: 80%;
+}
+
+.todoItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.checkbox-ele{
+    height: 15px;
+    width:15px;
+    margin-right: 5px;
+}
+
+.label-ele{
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(23, 43, 35);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.label-container{
+    background-color: #fff2e6;
+    width: 100%;
+    border-left: 5px solid #924709;
+    border-radius: 4px;
+    align-items: center;
+    margin-left: 10px;
+    display: flex;
+    height: 55px;
+}
+
+.delete-icon{
+    color: #fff2e6;
+    cursor: pointer;
+}
+
+.delete-container{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(23, 43, 35);
+    border: 1px solid #924709;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: #924709;
+}
+
+.todo-con h3{
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+
+
+}
